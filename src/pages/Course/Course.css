@@ -1,0 +1,30 @@
+.courses{
+    padding: 5px 140px;
+}
+.courses h2{
+    font-family: 'lale';
+    padding: 10px 40px;
+    color:  rgba(0, 0, 255, 0.825);
+}
+    
+
+.cimg{
+    width : 200px;
+    height: 200px;
+}
+.buybt{
+    margin-top: 50px;
+    margin-right: 40px;
+    border: 1px solid red;
+    font-family: 'lale';
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #fff;
+    color: red;
+    transition: .7s;
+}
+.buybt:hover{
+    color: #fff;
+    background-color: red;
+
+}

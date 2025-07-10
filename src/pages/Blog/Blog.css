@@ -1,0 +1,98 @@
+.articleh2{
+    padding: 10px 25px;
+    margin: 10px 50px;
+    font-family: 'lale';
+    font-size: 50px;
+    color:  rgba(0, 0, 255, 0.825);
+}
+.articleh2::before{
+content: '';
+position: absolute;
+width: 80px;
+height: 2px;
+margin-top: 60px;
+background-color: blue;
+}
+.blogbt{
+    background-color: #ccc;
+    width: 80%;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.blogbt ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.blogbt ul li{
+    list-style: none;
+}
+.jsbt{
+    color: black;
+    background-color: yellow;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 15px;
+}
+.jsbt:hover{
+    color: yellow;
+    background-color: black
+}
+.reactbt{
+    color: #fff;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 15px;
+}
+.reactbt:hover{
+    color: blue;
+    background-color: #fff;
+}
+.pybt{
+    background: linear-gradient(to right, #007CF0, #FFD700);
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 15px;
+}
+.cryptbt{
+    background-color: green;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 15px;
+}
+.cryptbt:hover{
+    background-color: black;
+    color: green;
+}
+.phpbt{
+    color: #fff;
+    background-color: rgb(223, 42, 72);
+    border-radius: 10px;
+    border: none;
+    padding: 5px 15px;
+}
+.phpbt:hover{
+    color: rgb(223, 42, 72);
+    background-color: #fff;
+}
+.cbt{
+    background-color: lightblue;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 15px;
+}
+.cbt:hover{
+    background-color: black;
+    color: lightblue;
+}
+.blogbody{
+    padding: 40px;
+    font-family: 'yekan';
+    font-size: 20px;
+}
